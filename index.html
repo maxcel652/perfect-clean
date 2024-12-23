@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Clean</title>
+    <link rel="stylesheet" href="/css/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes animate{
+            0%, 100%{
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1,1);
+            }
+        }
+        .animate-pulse{
+            animation:  2s infinite;
+        }
+    </style>
+    
+</head>
+<body>
+    <header class="md:p-10 " style="background-image: url(./images/bg-back.a3d8a365.png); background-size: cover; background-repeat: no-repeat; background-position: center;">
+        <nav class=" md:hidden">
+            <div class="md:max-w-96 flex items-center gap-4 mb-14   bg-blue-300 z-40  m-4 md:relative rounded-full fixed py-2">
+                <div class="w-3/4 "><img class="w-1/2 " src="./images/footer-logo.b33a3220.png"  alt=""></div>
+                <div id="menu" class="absolute hidden h-fit inset-0 top-20 w-full bg-blue-300">
+                    <ul  class="  grid  place-items-center gap-5 text-xl top-20 justify-center">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Contacts</a></li>
+                    </ul>
+
+                </div>
+
+                <button id="hamburger" class="text-xl">&#9776</button>
+            </div>
+        </nav>
+
+        <div class="flex flex-col md:flex-row md:justify-between  items-center md:mt-32 h-[100vh]w-[100vw]">
+            <!-- left nav section -->
+            <div class="text-center">
+                <div id="navbar"  class="md:max-w-96  md:flex hidden items-center gap-4 mb-14   bg-blue-300 z-40 fixed m-4 md:relative rounded-3xl  p-4">
+                    <div class="w-full "><img src="./images/footer-logo.b33a3220.png"  alt=""></div>
+                    <ul class="flex gap-4 text-xs ">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Contacts</a></li>
+                    </ul>
+                </div>
+
+                <div class="md:w-1/2 mt-24 ">
+                    <div class="flex items-center gap-4 justify-center md:justify-start md:opacity-35 ">
+                        <img src="./images/download (1).png" alt="">
+                        <p class="text-white md:text-gray-400 md:text-xl text-2xl">ESTABLISHED SINCE 2020</p>
+                    </div>
+                    <div class="text-center md:text-left lg:text-left w-full">
+                        <h1 class="font-bold text-black text-3xl mb-6">A New Solution For Your Home Cleaning Needs</h1>
+                        <p class="md:text-xs mb-6 text-center">Discover the ultimate in home cleanliness and comfort with our professional cleaning services, tailored just for you.</p>
+                        <div><button class="bg-blue-600 py-2 px-10 rounded-xl">Book Now</button></div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- right nav section -->
+             <div class="w-full md:w-1/4 "><img class="w-full animate-pulse" src="./images/woman.15acc6b9.png" alt=""></div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="container justify-center text-left mx-6 flex mt-20 flex-col-reverse md:flex-row md:text-xs  w-[90%]">
+            <div class="w-full">
+                <img class="animate-pulse " src="./images/hand.979e1bbe.png" alt="">
+            </div>
+            <div>
+                <h1 class="text-3xl font-black ">Decades of Cleaning Experience At Your Service</h1>
+                <p>With years of expertise, we bring unparalleled cleanliness to your living spaces, letting you relax and enjoy a pristine home.</p>
+
+
+                <div class="flex">
+                    <div ">
+                        <div class="flex items-center gap-3">
+                            <img src="./images/download (1).png" alt="">
+                            <h4 class="font-bold my-4 text-xl">Eco-Friendly Cleaning</h4>
+                        </div>
+                        <div class="pl-7">
+                            <p class="text-xs">Our use of green cleaning products ensures your home is not just clean but environmentally safe.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div ">
+                        <div class="flex items-center gap-3">
+                            <img src="./images/download (1).png" alt="">
+                            <h4 class="font-bold my-4 text-xl">Attention to Detail </h4>
+                        </div>
+                        <div class="pl-7">
+                            <p class="text-xs">We pride ourselves on our meticulous attention to every nook and cranny, ensuring a spotless space.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div ">
+                        <div class="flex items-center gap-3">
+                            <img src="./images/download (1).png" alt="">
+                            <h4 class="font-bold my-4 text-xl">Customized Services</h4>
+                        </div>
+                        <div class="pl-7">
+                            <p class="text-xs">From deep cleaning to daily upkeep, our services are tailored to meet your specific needs.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div ">
+                        <div class="flex items-center gap-3">
+                            <img src="./images/download (1).png" alt="">
+                            <h4 class="font-bold my-4 text-xl">Satisfaction Guaranteed</h4>
+                        </div>
+                        <div class="pl-7">
+                            <p class="text-xs">Your happiness is our priority. We promise a clean you can and see every time</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section id="features" class="bg-[#f8fef6] md:px-10 p-0  ">
+            <div class="container md:py-20 p-0 w-full ">
+                <div class="flex   flex-col mb-10 items-center md:flex-row md:justify-between justify-center p-10">
+                    <h1 class="font-black text-2xl md:w-4/5">Always Provide The Best Service</h1>
+                    <div>
+                        <h3 class="text-xl text-orange-400">Our Services</h3>
+                        <p class="text-xs">We are dedicated to offering top-notch services tailored to your needs, ensuring satisfaction and excellence.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col lg:flex-row gap-12 lg:gap-8 px-4 sm:px-6 lg:px-8"> 
+
+                        <!-- card no 1 -->
+
+                    <div class=" md:w-4/5 h-[400px] border-2 border-solid border-color-gray text-center py-10 px-5 rounded-2xl cursor-pointer hover:hover:bg-slate-200 ease-in duration-200">
+                        <div class=" inline-block rounded-2xl py-5 px-6">
+                            <img src="./images/download.png" alt="">
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Expense Tracking</h3>
+                        <p class="leading-relaxed">We use an application designed a testing gnose to keep away</p>
+                    </div>
+
+                    <!-- card no 2 -->
+
+                    <div class=" md:w-4/5 h-[400px] bg-color-primary-dark border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer hover:hover:bg-slate-200 ease-in duration-200">
+                        <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6">
+                            <img src="./images/download.png" alt="">
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Finace Snapshot</h3>
+                        <p class="leading-relaxed">We use an application designed a testing gnose to keep away</p>
+                    </div>
+
+                    <!-- card no 3 -->
+
+                    <div class=" md:w-4/5 h-[400px] border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer hover:bg-slate-200 ease-in duration-200">
+                        <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6">
+                            <img src="./images/download.png" alt="">
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Support 24/24</h3>
+                        <p class="leading-relaxed">We use an application designed a testing gnose to keep away</p>
+                    </div>
+
+                    <!-- card no 4 -->
+                    <div class=" md:w-4/5 h-[400px] border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer hover:bg-slate-200 ease-in duration-200">
+                        <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6">
+                            <img src="./images/download.png" alt="">
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Support 24/24</h3>
+                        <p class="leading-relaxed">We use an application designed a testing gnose to keep away</p>
+                    </div>
+                    
+                </div>
+
+
+                <div class="flex   flex-col mb-10 items-center md:flex-row md:justify-between justify-center py-10 px-4 space-x-3">
+                    <h1 class="font-black md:text-4xl md:w-4/5 mb-4">Our Past Works</h1>
+                    <div class=" ">
+                        <h3 class="text-xl ">Explore our portfolio to see the quality and range of services we have provided to our satisfied clients.</h3>
+                        <p class="text-xs text-blue-400">Peek at our professional Work-folio</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- testimonials section -->
+         <section id="testimonials">
+            <div class="px-5 ">
+                <div class="container ">
+                    <div class="flex md:justify-between md:items-center flex-col md:flex-row mt-10">
+                        <h2 class="text-2xl mb-5"><span class="text-blue-600">250 +</span>satisfied Clients With Our Services</h2>
+                        <div>
+                            <h4 class="text-orange-400">Testimonials</h4>
+                            <p>Providing top-notch cleaning services tailored to your needs
+                            </p>
+                        </div>
+                    </div>
+
+                   
+                    <div class="flex flex-col gap-6 md:flex-row mt-10">
+                         <!-- testimonial card no 1 -->
+                        <div class="p-10 bg-[#f8fef6] ">
+                            <div class="flex items-center gap-3 w-full my-5">
+                                <img class="" src="./images/user1.5c4a30fe.png" alt="">
+                                <div>
+                                    <p>Alex Johnson</p>
+                                    <p>Restaurant Owner</p>
+                                </div>
+    
+                            </div>
+                            <p>
+                                The cleaning team did an outstanding job, leaving our space spotless and ready for business evey day.
+                            </p>
+                        </div>
+    
+                        <!-- testimonial card no 1 -->
+                        <div class="p-10 bg-[#f8fef6] ">
+                            <div class="flex items-center gap-3 w-full my-5">
+                                <img class="" src="./images/user1.5c4a30fe.png" alt="">
+                                <div>
+                                    <p>Alex Johnson</p>
+                                    <p>Restaurant Owner</p>
+                                </div>
+    
+                            </div>
+                            <p>
+                                The cleaning team did an outstanding job, leaving our space spotless and ready for business evey day.
+                            </p>
+                        </div>
+    
+                        <!-- testimonial card no 1 -->
+                        <div class="p-10 bg-[#f8fef6] ">
+                            <div class="flex items-center gap-3 w-full my-5">
+                                <img class="" src="./images/user1.5c4a30fe.png" alt="">
+                                <div>
+                                    <p>Alex Johnson</p>
+                                    <p>Restaurant Owner</p>
+                                </div>
+    
+                            </div>
+                            <p>
+                                The cleaning team did an outstanding job, leaving our space spotless and ready for business evey day.
+                            </p>
+                        </div>
+    
+                        <!-- testimonial card no 1 -->
+                        <div class="p-10 bg-[#f8fef6] ">
+                            <div class="flex items-center gap-3 w-full my-5">
+                                <img class="" src="./images/user1.5c4a30fe.png" alt="">
+                                <div>
+                                    <p>Alex Johnson</p>
+                                    <p>Restaurant Owner</p>
+                                </div>
+    
+                            </div>
+                            <p>
+                                The cleaning team did an outstanding job, leaving our space spotless and ready for business evey day.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+
+         <!-- work wih us section  -->
+          <section id="work-with-us" class="bg-[#f8fef6] mt-10">
+            <div class="flex p-5 ">
+                <div class="md:pl-16 mt-10">
+                    <h1 class="font-bold text-3xl">Are You Ready To Work With Us Now?</h1>
+                    <p class="text-xs">What do oyou think after seeing the good response from our previous customers?</p>
+                    <div class="flex justify-center flex-col md:flex-row gap-10 mt-5">
+                        <button class="bg-blue-500 px-4 py-2 rounded-full">Book Now</button>
+                        <button class="border border-solid py-2 px-4 border-gray-300">Watch Demo</button>
+                    </div>
+                </div>
+
+                <div class="hidden md:flex"><img src="./images/curl-bg.9465988e.png" alt=""></div>
+            </div>
+        </section>
+
+        <!-- footer section -->
+        <footer class="mt-10">
+            <div class="md:flex-row flex  flex-col items-center gap-10 justify-center py-20">
+                <div class="md:w-1/2">
+                    <img class="md:w-1/2" src="./images/footer-logo.b33a3220.png" alt="">
+                </div>
+                <div class="space-y-4 text-xl">
+                    <h1 class="text-orange-400">Contact Us</h1>
+                    <p>Bamenda Bambili, Cameroon</p>
+                    <p>680071900</p>
+                    <a href="">mukemmbawei@gmail.com</a>
+                </div>
+            </div>
+            <div class="bg-blue-500 py-5 text-center ">
+                <p class="text-white">&copy; 2024 Traitz Tech.</p>
+            </div>
+        </footer>
+
+    </main>
+
+
+    <script src="./main.js"></script>
+    <script src="scroll.js"></script>
+</body>
+</html>
